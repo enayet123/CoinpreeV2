@@ -1,0 +1,19 @@
+.container {
+    height: calc(100% - 88px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.element {
+    font-size: 2.6666em;
+    margin: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        height: calc(100% - 76px);
+        flex-direction: column;
+    }
+}
